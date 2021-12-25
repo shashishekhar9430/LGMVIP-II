@@ -1,0 +1,142 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(212, 209, 21);
+  padding: 8px;
+  margin: 0;
+  margin-bottom: 50px;
+  height: 80px;
+  left: 0;
+  right: 0;
+}
+.atom {
+  width: 64px;
+}
+.button {
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  padding: 2px;
+  border: 1px solid rgb(240, 29, 29);
+  border-radius: 50px;
+  background-color: #00ff88;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #3ff2ff56;
+  transform: scale(1.14);
+  transition: 0.5s;
+}
+#loading {
+  position: fixed;
+  z-index: -1;
+  top: 150px;
+  left: 50%;
+}
+.parent {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+}
+.contains {
+  position: relative;
+  background-color: rgb(96, 94, 119);
+  padding: 0px;
+  z-index: 100;
+}
+.container {
+  position: relative;
+  margin-left: 2px;
+  padding: 10px;
+  display: inline-block;
+  align-items: right;
+  z-index: 500;
+  transition: 0.5s;
+}
+.card {
+  padding: 20px;
+  float: left;
+  background: rgb(0, 139, 109);
+  border: 1px solid rgba(0, 10, 143, 0.527);
+  border-radius: 100px;
+  width: 240px;
+  height: 350px;
+  margin: 40px;
+}
+.card:hover {
+  background: rgb(77, 0, 60);
+  border-radius: 3px solid rgb(5, 58, 0);
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.img {
+  display: flex;
+  border-radius: 100px;
+  border: 1px solid rgb(216, 202, 0);
+  justify-items: center;
+  align-items: center;
+}
+.img:hover {
+  transform: scale(1.15);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.name {
+  font-size: 25px;
+}
+.name:hover {
+  display: inline-block;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: rgb(71, 43, 71);
+  padding: 5px;
+}
+.email {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 2px solid black;
+  padding: 4px;
+  border-radius: 10px;
+  color: rgb(157, 209, 14);
+  background: rgb(107, 92, 92);
+}
+.id {
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 200;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 4px;
+  color: rgba(240, 237, 61, 0.87);
+  background: rgb(131, 136, 130);
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  display: block;
+  background: #000;
+  height: 10vh;
+  z-index: 500;
+}
+.foot {
+  padding: 10px;
+  color: #ffff;
+}
